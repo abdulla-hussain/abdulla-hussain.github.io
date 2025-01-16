@@ -455,30 +455,30 @@ section .title::after {
     color: #8370E9;
     background: none;
 }
-
+.skills .skills-content .left .bars,
 .skills .skills-content .right .bars {
     margin-bottom: 15px;
 }
-
+.skills .skills-content .left .info,
 .skills .skills-content .right .info {
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-
+.skills .skills-content .left span,
 .skills .skills-content .right span {
     font-weight: 500;
     font-size: 18px;
 }
-
+.skills .skills-content .left .line,
 .skills .skills-content .right .line {
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-
+.skills .skills-content .left .line::before,
 .skills .skills-content .right .line::before {
     content: "";
     position: absolute;
@@ -487,59 +487,59 @@ section .title::after {
     top: 0;
     background: #8370E9;
 }
-
+.skills .skills-content .left .html::before,
 .skills-content .right .html::before {
     width: 95%;
 }
-
+.skills .skills-content .left .css::before,
 .skills-content .right .css::before {
     width: 90%;
 }
-
+.skills .skills-content .left .bootstrap::before,
 .skills-content .right .bootstrap::before {
     width: 80%;
 }
-
+.skills .skills-content .left .scss::before,
 .skills-content .right .scss::before {
     width: 60%;
 }
-
+.skills .skills-content .left .javascript::before,
 .skills-content .right .responsive::before {
     width: 98%;
 }
-
+.skills .skills-content .left .jquery::before,
 .skills-content .right .jquery::before {
     width: 80%;
 }
-
+.skills .skills-content .left .reactjs::before,
 .skills-content .right .javascript::before {
     width: 80%;
 }
-
+.skills .skills-content .left .angular::before,
 .skills-content .right .figma::before {
     width: 80%;
 }
-
+.skills .skills-content .left .photoshop::before,
 .skills-content .right .photoshop::before {
     width: 90%;
 }
-
+.skills .skills-content .left .illustrator::before,
 .skills-content .right .reactjs::before {
     width: 90%;
 }
-
+.skills .skills-content .left .figma::before,
 .skills-content .right .angular::before {
     width: 85%;
 }
-
+.skills .skills-content .left .xd::before,
 .skills-content .right .php::before {
     width: 90%;
 }
-
+.skills .skills-content .left .php::before,
 .skills-content .right .python::before {
     width: 80%;
 }
-
+.skills .skills-content .left .python::before,
 .skills-content .right .net::before {
     width: 80%;
 }
