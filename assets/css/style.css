@@ -503,7 +503,7 @@ section .title::after {
 .skills-content .right .scss::before {
     width: 60%;
 }
-.skills .skills-content .left .javascript::before,
+.skills .skills-content .left .responsive::before,
 .skills-content .right .responsive::before {
     width: 98%;
 }
