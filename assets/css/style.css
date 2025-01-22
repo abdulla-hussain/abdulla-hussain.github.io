@@ -1015,13 +1015,20 @@ section#contact {
 .teams #myTab {
     justify-content: center;
 }
-
+.nav-tabs .nav-link{
+    border-width: 2px;
+    border-color: transparent;
+}
+.nav-tabs .nav-link:hover{
+    border-width: 2px;
+    border-color: transparent;
+    color: #fff;
+}
 .nav-tabs .nav-link.active {
     border-width: 2px;
     border-bottom-width: 2px;
     border-color: #ccc;
-    border-bottom-color: rgb(255, 255, 255);
-    border-bottom: 0 !important;
+    border-bottom-color: transparent;
     background-color: #111;
 }
 
