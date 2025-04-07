@@ -503,75 +503,42 @@ section .title::after {
     background: #8370E9;
 }
 
-.skills-content .left .html::before,
-.skills-content .right .html::before {
+.skills-content .p95::before {
     width: 95%;
 }
 
-.skills-content .left .css::before,
-.skills-content .right .css::before {
+.skills-content .p90::before {
     width: 90%;
 }
 
-.skills-content .left .bootstrap::before,
-.skills-content .right .bootstrap::before {
+.skills-content .p80::before {
     width: 80%;
 }
 
-.skills-content .left .scss::before,
-.skills-content .right .scss::before {
+.skills-content .p60::before {
     width: 60%;
 }
 
-.skills-content .left .responsive::before,
-.skills-content .right .responsive::before {
+.skills-content .p98::before {
     width: 98%;
 }
 
-.skills-content .left .jquery::before,
-.skills-content .right .jquery::before {
+.skills-content .p50::before {
     width: 50%;
 }
 
-.skills-content .left .reactjs::before,
-.skills-content .right .javascript::before {
-    width: 80%;
-}
-
-.skills-content .left .figma::before,
-.skills-content .right .figma::before {
-    width: 60%;
-}
-
-.skills-content .left .photoshop::before,
-.skills-content .right .photoshop::before {
-    width: 80%;
-}
-
-.skills-content .left .illustrator::before,
-.skills-content .right .reactjs::before {
-    width: 90%;
-}
-
-.skills-content .left .angular::before,
-.skills-content .right .angular::before {
+.skills-content .p85::before {
     width: 85%;
 }
 
-.skills-content .left .xd::before,
 .skills-content .right .php::before {
     width: 90%;
 }
 
-.skills-content .left .php::before,
-.skills-content .right .python::before {
-    width: 80%;
+.skills-content .p70::before {
+    width: 70%;
 }
 
-.skills-content .left .python::before,
-.skills-content .right .net::before {
-    width: 80%;
-}
 
 
 /* teams section styling */
@@ -1016,15 +983,18 @@ section#contact {
 .teams #myTab {
     justify-content: center;
 }
-.nav-tabs .nav-link{
+
+.nav-tabs .nav-link {
     border-width: 2px;
     border-color: transparent;
 }
-.nav-tabs .nav-link:hover{
+
+.nav-tabs .nav-link:hover {
     border-width: 2px;
     border-color: transparent;
     color: #fff;
 }
+
 .nav-tabs .nav-link.active {
     border-width: 2px;
     border-bottom-width: 2px;
@@ -1039,11 +1009,15 @@ section#contact {
         height: auto;
         width: 100%;
     }
-    .owl-dot{margin: 0 4px;}
-    
-.owl-dot.active {
-    width: 30px;
-}
+
+    .owl-dot {
+        margin: 0 4px;
+    }
+
+    .owl-dot.active {
+        width: 30px;
+    }
+
     .img-box {
         visibility: hidden;
     }
